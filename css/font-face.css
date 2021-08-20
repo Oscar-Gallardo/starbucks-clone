@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('../fonts/SoDoSans-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('../fonts/SoDoSans-SemiBold.woff');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('../fonts/SoDoSans-Bold.woff');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
