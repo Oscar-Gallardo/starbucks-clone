@@ -1,5 +1,6 @@
 @import url(font-face.css);
 
+/* General Styling */
 *,
 *:before,
 *:after {
@@ -18,9 +19,15 @@ body {
     margin: 0;
 }
 
+a {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/* Header Styling */
 header {
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     height: 101px;
+    position: relative;
 }
 .header__wrapper {
     display: flex;
@@ -102,4 +109,137 @@ header {
 .join-now:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Main Styling */
+.main-container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.announcements {
+    background-color: #d8e8e3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 32px 0;
+}
+.announcements span {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.75;
+    max-width: 60%;
+    padding: 0 40px;
+    text-align: center;
+}
+.announcements span a:hover {
+    text-decoration: none;
+}
+.lr-section {
+    display: flex;
+    margin-bottom: 32px;
+}
+.lr-section .text {
+    align-items: center;
+    background-color: #f1f8f6;
+    color: #1e3932;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 48px;;
+    width: 50%;
+}
+.lr-section .text h1, .lr-section .text h3 {
+    margin: 0;
+}
+.lr-section .text h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.lr-section .text h3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.text .cta {
+    border: 1px solid #1e3932;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 7px 16px;
+    transition: all 0.2s ease;
+}
+.text .cta:hover {
+    background-color: rgba(30, 57, 50, 0.1);
+}
+.lr-section .image {
+    width: 50%;
+    display: flex;
+}
+.lr-section .image img {
+    width: 100%;
+}
+.refresher-drinks .text {
+    background-color: #f2f0eb;
+}
+.refresher-drinks .text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 1.2;
+}
+.refresher-drinks .text h3 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+.online-ordering {
+    display: flex;
+    margin-bottom: 32px;
+}
+.tb-section {
+    display: flex;
+    width: 50%;
+}
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.tb-section:first-child .section-wrapper {
+    margin-right: 16px;
+}
+.tb-section:last-child .section-wrapper {
+    margin-left: 16px;
+}
+.tb-section .image {
+    display: flex;
+    width: 100%;
+}
+.tb-section .image img {
+    width: 100%;
+}
+.tb-section .text {
+    background-color: #d4e9e2;
+    color: #1e3932;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px 24px 32px 24px;
+}
+.tb-section .text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.tb-section .text h3 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.tb-section .cta-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
