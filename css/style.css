@@ -243,6 +243,38 @@ header {
     display: flex;
     justify-content: center;
 }
+.years-of-service .text {
+    background-color: #f2f0eb;
+}
+.restrictions {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    margin-bottom: 32px;
+}
+.restriction span {
+    font-size: 16px;
+    padding: 0 48px;
+    text-align: center;
+}
+.restrictions span a:hover {
+    text-decoration: none;
+}
+.terms {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+.terms span {
+    font-size: 14px;
+    letter-spacing: -0.16px;
+    line-height: 1.8;
+    max-width: 54%;
+    padding: 0 48px;
+    text-align: center;
+}
 footer {
     box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     padding: 24px 0;
